@@ -1,0 +1,25 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+The previous version was working fine but the new one wasnt. There must be something different in the new version that lead to a bug. So after checking all the diffrences pointed out by 'diff', i could locate the bug.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+That way I know what changes I made at each step of development. And it can help me to revert back to any older version if there is a change in functionality or a bug is introduced in the newer version.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Pros:
+- You can create commits for completion of each logical feature
+- Repository is not cluttered with too many commit files, some of which dont even compile
+- You can add a comment for each commit explaining what was changed/added in that commit
+Cons:
+- If you do not commit for a long time and there is a system failure, you can lose some of the work
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Git allows saving mutliple files because Git is used for application development where multiple files are linked to each other. Which means, if you make changes to one file, you might have to make change to some others too. Google docs on other hand is used for general documents which are not linked to each other.
+
+How can you use the commands git log and git diff to view the history of files?
+Git log can be used to view all the commits made on the repository sorted by date. Each commit is identified by a commit id and includes a comment describing the changes made. You can then use git diff to compare a commit with its earlier version. It will display which files were modified and which lines were added and deleted in that version.
+
+How might using version control make you more confident to make changes that could break something?
+Even if you make a change that introduced some bug, you can always revert back to an older version which did not have the bug.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+To write Android programs.
