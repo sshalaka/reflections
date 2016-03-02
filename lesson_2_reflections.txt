@@ -4,3 +4,6 @@ When you initialize a repository following things happen
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area is the intermediate area between the working directory and the repository. It allows you to hold only selected files from the working directory that you would like to add to the repository before making a commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+If you make changes to more than one file in your working dir, you can add one file at a time to the staging area and commit the same. That way you can ensure there's only one logical change per commit.
