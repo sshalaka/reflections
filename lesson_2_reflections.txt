@@ -10,3 +10,6 @@ If you make changes to more than one file in your working dir, you can add one f
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 There are situations when you want to make experimental changes to the code. During such situations you can create a new branch for each such change. That way the main branch remains intact with the original working code while you can experiment with other behaviors.
+
+How do the diagrams help you visualize the branch structure?
+Diagrams makes it easy to view the parent of each commit. So that you know which commits will be included when you checkout a branch.
