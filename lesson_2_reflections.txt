@@ -13,3 +13,6 @@ There are situations when you want to make experimental changes to the code. Dur
 
 How do the diagrams help you visualize the branch structure?
 Diagrams makes it easy to view the parent of each commit. So that you know which commits will be included when you checkout a branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result of merging two branches together is one single branch with commits ordered by the datetime they were created. Diagram representation gives a clear understanding of the order in which commit were created.
