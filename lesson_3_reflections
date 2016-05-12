@@ -11,3 +11,6 @@ Describe the differences between forks, clones, and branches. When would you use
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 There might be times when you have made some changes (commit) in your local repository which you havent yet pushed to the remote and in mean while another user has made changes (another commit) to the remote repository. Then you can use fetch to update the local copy of the remote branch (origin/master) in your repository while keeping the local master intact. You can then manually merge origin/master and master. Thus the benefit of having a copy of remore stored locally is that you can obtain changes made by other users while not losing the ones made by you.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Collaborating without Git or Github would mean sharing files manually using email with in-line comments pointing out the proposed changes. And that would make it much harder to collaberate, specially if multiple people are working on the same project.
