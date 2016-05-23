@@ -14,3 +14,6 @@ There might be times when you have made some changes (commit) in your local repo
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Collaborating without Git or Github would mean sharing files manually using email with in-line comments pointing out the proposed changes. And that would make it much harder to collaberate, specially if multiple people are working on the same project.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Its better to create a seperate branch when you want to make changes to the files that you want others to review before adding to the final version. This way other users working on the same project can review the changes in the files and post their comments on the same. Once you read the comments and make corrections, you can merge the new branch with the master branch. This makes collaboration clean and efficient.
